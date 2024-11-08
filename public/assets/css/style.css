@@ -1,0 +1,484 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* 
+.navbar {
+  background-color: white;
+} */
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.nav-link {
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.nav-link:hover {
+  color: white !important;
+  background-color: black !important;
+
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* mainsection */
+
+.main {
+  background: url(/public/assets/image/bg1.webp) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 95vh;
+
+}
+
+.main h3 {
+  font-size: 4.4rem;
+  font-weight: 700;
+}
+
+.main h6 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  line-height: 1;
+  border-bottom: 3px solid rgb(20, 91, 233);
+  width: 43%;
+}
+
+.main .bt1 {
+  height: 55px;
+  width: 138px;
+  background-color: rgb(20, 91, 233);
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.main .bt1:hover {
+  background-color: rgb(38, 71, 136);
+  transition: 0.5s;
+}
+
+.main .bt2 {
+  height: 55px;
+  width: 138px;
+  background-color: transparent;
+  color: rgb(20, 91, 233);
+  outline: none;
+  border: 1px solid rgb(20, 91, 233);
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.main .bt2:hover {
+  background-color: rgb(20, 91, 233);
+  transition: 0.5s;
+  color: white;
+}
+
+/* ABOUT US STYLING */
+.about {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.about img {
+  -webkit-box-shadow: 6px 6px 22px -4px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 6px 6px 22px -4px rgba(0, 0, 0, 0.59);
+  box-shadow: 6px 6px 22px -4px rgba(0, 0, 0, 0.59);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.progress {
+  background-color: rgb(223, 217, 217);
+  justify-content: flex-start;
+  border-radius: 50px;
+  align-items: center;
+  position: relative;
+  display: flex;
+  height: 25px;
+  width: 100%;
+
+
+  -webkit-box-shadow: inset 20px -16px 52px -16px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: inset 20px -16px 52px -16px rgba(0, 0, 0, 0.38);
+  box-shadow: inset 20px -16px 52px -16px rgba(0, 0, 0, 0.38);
+}
+
+.pro-value1 {
+  animation: load1 3s normal forwards;
+  border-radius: 50px;
+  background-color: black;
+  height: 25px;
+  width: 0;
+
+}
+
+.progress p {
+  color: white;
+  padding: 4px;
+  padding-left: 15px;
+}
+
+.pro-value2 {
+  animation: load2 3s normal forwards;
+  border-radius: 50px;
+  background-color: black;
+  height: 25px;
+  width: 0;
+
+}
+
+.pro-value3 {
+  animation: load3 3s normal forwards;
+  border-radius: 50px;
+  background-color: black;
+  height: 25px;
+  width: 0;
+
+}
+
+.pro-value4 {
+  animation: load4 3s normal forwards;
+  border-radius: 50px;
+  background-color: black;
+  height: 25px;
+  width: 0;
+
+}
+
+@keyframes load1 {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 92%;
+  }
+}
+
+@keyframes load2 {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes load3 {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 87%;
+  }
+}
+
+@keyframes load4 {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+/* ABOUT button styling */
+
+.btn1 {
+  height: 40px;
+  width: 145px;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn1:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+
+.btn2 {
+  height: 40px;
+  width: 145px;
+  outline: none;
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+  border-radius: 4px;
+}
+
+.btn2:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  transition: 0.5s;
+}
+
+/* CATALOG */
+
+.card {
+  border: none;
+  outline: none;
+
+  -webkit-box-shadow: 0px 0px 82px -25px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 0px 82px -25px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 0px 82px -25px rgba(0, 0, 0, 0.38);
+}
+
+.card p {
+  color: gray;
+}
+
+.circle1 {
+  height: 70px;
+  width: 70px;
+  /* background-color: lightgrey; */
+
+  background: url(/public/assets/image/beds1.webp);
+  background-size: cover;
+
+  color: black;
+  padding: 12px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+
+.circle2 {
+  height: 70px;
+  width: 70px;
+  /* background-color: lightgrey; */
+
+  background: url(/public/assets/image/office1.webp);
+  background-size: cover;
+
+  color: black;
+  padding: 12px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+.circle3 {
+  height: 70px;
+  width: 70px;
+  /* background-color: lightgrey; */
+
+  background: url(/public/assets/image/bathroom1.webp);
+  background-size: cover;
+
+  color: black;
+  padding: 12px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+.circle4 {
+  height: 70px;
+  width: 70px;
+  /* background-color: lightgrey; */
+
+  background: url(/public/assets/image/kitchenware1.jpeg);
+  background-size: cover;
+
+  color: black;
+  padding: 12px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+.circle5 {
+  height: 70px;
+  width: 70px;
+  /* background-color: lightgrey; */
+
+  background: url(/public/assets/image/dining1.jpeg);
+  background-size: cover;
+
+  color: black;
+  padding: 12px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+.circle6 {
+  height: 70px;
+  width: 70px;
+  /* background-color: lightgrey; */
+
+  background: url(/public/assets/image/livingroom1.jpeg);
+  background-size: cover;
+
+  color: black;
+  padding: 12px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+/*FEATURED */
+
+
+.control ul li {
+  list-style: none;
+  background-color: black;
+  padding: 5px 15px;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.item {
+  position: relative;
+}
+
+
+.item:hover {
+  -webkit-box-shadow: 0px 0px 82px -25px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 0px 82px -25px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 0px 82px -25px rgba(0, 0, 0, 0.38);
+
+  transition: 0.5s;
+}
+
+.item span {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  font-size: 40px;
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.item:hover span {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.item:before {
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(239, 239, 239, 0.479);
+  opacity: 0;
+  position: absolute;
+}
+
+.item:hover:before {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+/* BLOG SECTION */
+.blog {
+  background-color: #f8f9fa;
+  /* Light background */
+}
+
+.blog .card {
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for cards */
+}
+
+.blog .card-title {
+  font-weight: bold;
+}
+
+.blog .card-text {
+  color: #666;
+
+}
+
+
+/* CONTACT SECTION  */
+.circle {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(209, 209, 209);
+
+  background-size: cover;
+
+  color: black;
+  padding: 12px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+.circle:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+/* CONTACT BUTTON (submit) */
+.contact .btn3 {
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 140px;
+  border-radius: 4px;
+}
+
+.btn3:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  transition: 0.4s;
+}
+
+footer {
+  background-color: black;
+  color: lightgray;
+}
